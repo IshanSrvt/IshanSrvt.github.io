@@ -3,10 +3,11 @@ body{
 }
 .nav a{
     font-size: auto;
-    padding: 20px;
+    padding: auto;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     padding-top: 20px;
+    margin-top: auto;
 }
 .nava{    
     color: rgb(207, 207, 207);
