@@ -2,7 +2,7 @@ body{
     background-image: url(../images/background.png);
 }
 .nav a{
-    font-size: 25px;
+    font-size: auto;
     padding: 30px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
@@ -34,7 +34,7 @@ body{
 }
 html,body{
   display: grid;
-  height: 100%;
+  height: auto;
   place-items: center;
   
 }
