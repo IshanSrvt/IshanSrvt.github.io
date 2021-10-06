@@ -3,7 +3,7 @@ body{
 }
 .nav a{
     font-size: auto;
-    padding: 30px;
+    padding: auto;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
