@@ -2,12 +2,12 @@ body{
     background-image: url(../images/background.png);
 }
 .nav a{
-    font-size: auto;
-    padding: auto;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    padding-top: 20px;
-    margin-top: auto;
+  font-size: auto;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  margin-top: 15px;
+  padding-top: auto;
 }
 .nava{    
     color: rgb(207, 207, 207);
