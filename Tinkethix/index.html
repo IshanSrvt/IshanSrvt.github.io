@@ -25,6 +25,10 @@
         <!-- google fonts end -->
     </head>
     <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="./Abstract Background video No Copyright video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
         <!-- preloader start -->
         <div class="preloader-bg"></div>
         <div id="preloader">
@@ -1567,6 +1571,21 @@
         <!-- scripts start -->
         <script src="./plugins.js"></script> 
         <script src="./creativex.js"></script>
+        <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+            
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+            </script>
+            
         <!-- scripts end -->
     </body>
 
