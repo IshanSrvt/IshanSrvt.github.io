@@ -21,6 +21,126 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700" rel="stylesheet" type="text/css">
         <!-- google fonts end -->
     </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="./ test.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          
+        <!-- navigation start -->
+        <!-- navigation button start -->
+        <div class="round-menu-wrapper">
+            <div class="round-menu navigation-fire">
+                <span class="dot-1"></span><span class="dot-2"></span><span class="dot-3"></span>            
+            </div>
+        </div>
+        <!-- navigation button end -->
+        <!-- navigation panel left start -->
+        <div class="panel-overlay-from-left">
+        </div>
+        <!-- navigation panel left end -->
+        <!-- navigation panel right start -->
+        <div class="panel-from-right">
+            <!-- navigation links start -->
+            <nav class="navigation-menu">
+                <!-- center container start -->
+                <div class="center-container-menu">
+                    <!-- center block start -->
+                    <div class="center-block-menu">
+                        <ul class="menu">
+                            <li>
+                                <a class="navigation-state active" href="./index.html" target="_blank">Home</a>                            
+                            </li>
+                            <li>
+                                <a class="navigation-state" href="./about.html" target="_blank">About</a>                            
+                            </li>
+                            <li>
+                                <a class="navigation-state" href="./achievements.html" target="_blank">Achievements</a>                            
+                            </li>
+                            <li>
+                                <a class="navigation-state" href="./achievements.html" target="_blank">Projects/Innovation</a>                            
+                            </li>
+                            <li>
+                                <a class="navigation-state" href="./contact.html" target="_blank">Contact</a>                            
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- center block end -->
+                </div>
+                <!-- center container end -->
+            </nav>
+            <!-- navigation links end -->
+            <!-- blob start -->
+            <svg class="goo" viewBox="0 0 100 100">
+                <defs>
+                    <filter id='goo'>
+                        <feGaussianBlur in='SourceGraphic' result='blur' stdDeviation='4' />
+                        <feColorMatrix in='blur' result='goo' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7' />
+                    </filter>
+                </defs>
+                <g filter="url(#goo)">
+                    <circle cx=35 cy=35 r=12>
+                        <animateTransform attributeName="transform" attributeType="XML" repeatCount="indefinite"
+                            type="rotate" 
+                            from="0 60 50"
+                            to="360 50 50"
+                            dur="8s" />
+                        <animate attributeName="fill" attributeType="XML" repeatCount="indefinite"
+                            values="Gray; DimGray; Gray"
+                            keyTimes="0; 0.5; 1"
+                            dur="6s" />
+                    </circle>
+                    <circle cx=40 cy=35 r=12>
+                        <animateTransform attributeName="transform" attributeType="XML" repeatCount="indefinite"
+                            type="rotate" 
+                            dur="6s"
+                            from="0 60 50"
+                            to="-360 50 50" />
+                        <animate attributeName="fill" attributeType="XML" repeatCount="indefinite"
+                            values="DimGray; Gray; DimGray"
+                            keyTimes="0; 0.5; 1"
+                            dur="8s" />
+                    </circle>
+                    <circle cx=45 cy=45 r=25>
+                        <animateTransform attributeName="transform" attributeType="XML" repeatCount="indefinite"
+                            dur="4s"
+                            from="0 50 50"
+                            to="360 50 50"
+                            type="rotate" />
+                        <animate attributeName="fill" attributeType="XML" repeatCount="indefinite"
+                            values="DimGray; Gray; DimGray"
+                            keyTimes="0; 0.5; 1"
+                            dur="6s" />
+                    </circle>
+                    <circle cx=30 cy=60 r=20>
+                        <animateTransform attributeName="transform" attributeType="XML" repeatCount="indefinite"
+                            dur="10s"
+                            from="0 50 50"
+                            to="-360 50 50"
+                            type="rotate" />
+                        <animate attributeName="fill" attributeType="XML" repeatCount="indefinite"
+                            values="DimGray; Gray; DimGray"
+                            keyTimes="0; 0.5; 1"
+                            dur="9s" />
+                    </circle>
+                    <circle cx=60 cy=40 r=15>
+                        <animateTransform attributeName="transform" attributeType="XML" repeatCount="indefinite"
+                            dur="8s"
+                            from="0 40 40"
+                            to="360 40 40"
+                            type="rotate" />
+                        <animate attributeName="fill" attributeType="XML" repeatCount="indefinite"
+                            values="DimGray; Gray; DimGray"
+                            keyTimes="0; 0.5; 1"
+                            dur="7s" />
+                    </circle>
+                </g>
+            </svg>
+            <!-- blob end -->
+        </div>
+        <!-- navigation panel right end -->
+        <!-- navigation end -->
+
     <!-- container start -->
     <div class="container-fluid nopadding">
         <!-- extra margin start -->
@@ -320,4 +440,5 @@
             <!-- container end -->
         </div>
         <!-- page services end -->
+        </body>
 </html>
